@@ -527,7 +527,7 @@ a.contact-line:hover .contact-value{ color:var(--gold); }
 
   .header-inner{ height:72px; }
   .hero{ padding-top:72px; }
-  .hero-inner{ padding-top:12px; padding-bottom:40px; }
+  .hero-inner{ padding-top:40px; padding-bottom:40px; }
   .badge-pill{ font-size:11.5px; }
   .hero-desc{ font-size:16px; margin-bottom:28px; }
   .hero-actions{ margin-bottom:44px; }
