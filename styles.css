@@ -509,7 +509,7 @@ a.contact-line:hover .contact-value{ color:var(--gold); }
 
   .about-grid, .contact-grid{ grid-template-columns:1fr; gap:48px; }
   .hero-inner{ grid-template-columns:1fr; }
-  .hero-visual{ min-height:340px; order:-1; margin-bottom:12px; }
+  .hero-visual{ min-height:340px; margin-top:32px; }
   .card-top{ left:0; }
   .card-bottom{ right:0; }
   .stone-grid{ grid-template-columns:repeat(2,1fr); }
@@ -532,10 +532,15 @@ a.contact-line:hover .contact-value{ color:var(--gold); }
   .hero-desc{ font-size:16px; margin-bottom:28px; }
   .hero-actions{ margin-bottom:44px; }
   .btn{ padding:13px 22px; font-size:13.5px; }
-  .hero-stats{ gap:28px; flex-wrap:wrap; padding-top:24px; }
+  .hero-stats{
+    display:grid; grid-template-columns:repeat(2,1fr);
+    row-gap:24px; column-gap:20px; max-width:none;
+    padding-top:24px;
+  }
   .hero-stats dt{ font-size:28px; }
 
-  .hero-visual{ min-height:280px; }
+  .hero-visual{ min-height:280px; margin-top:24px; }
+  .scroll-cue{ display:none; }
   .hero-gem-frame{ padding:22px; border-radius:16px; }
   .floating-card{ padding:9px 12px; gap:9px; border-radius:12px; }
   .fc-icon{ width:26px; height:26px; font-size:12px; }
@@ -571,7 +576,6 @@ a.contact-line:hover .contact-value{ color:var(--gold); }
   .hero-title{ font-size:clamp(32px, 9vw, 42px); }
   .hero-actions{ flex-direction:column; align-items:stretch; gap:14px; }
   .hero-actions .btn{ width:100%; justify-content:center; padding-left:22px; }
-  .hero-stats{ gap:22px; }
-  .hero-stats > div{ min-width:40%; }
+  .hero-stats{ row-gap:20px; column-gap:16px; }
   .brand-text{ font-size:17px; }
 }
