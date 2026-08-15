@@ -509,7 +509,7 @@ a.contact-line:hover .contact-value{ color:var(--gold); }
 
   .about-grid, .contact-grid{ grid-template-columns:1fr; gap:48px; }
   .hero-inner{ grid-template-columns:1fr; }
-  .hero-visual{ min-height:340px; margin-top:32px; }
+  .hero-visual{ min-height:340px; margin-top:48px; margin-bottom:24px; }
   .card-top{ left:0; }
   .card-bottom{ right:0; }
   .stone-grid{ grid-template-columns:repeat(2,1fr); }
@@ -539,15 +539,15 @@ a.contact-line:hover .contact-value{ color:var(--gold); }
   }
   .hero-stats dt{ font-size:28px; }
 
-  .hero-visual{ min-height:280px; margin-top:24px; }
+  .hero-visual{ min-height:280px; margin-top:56px; margin-bottom:32px; }
   .scroll-cue{ display:none; }
   .hero-gem-frame{ padding:22px; border-radius:16px; }
   .floating-card{ padding:9px 12px; gap:9px; border-radius:12px; }
   .fc-icon{ width:26px; height:26px; font-size:12px; }
   .fc-title{ font-size:12px; }
   .fc-sub{ font-size:10.5px; }
-  .card-top{ top:0; }
-  .card-bottom{ bottom:0; }
+  .card-top{ top:16px; }
+  .card-bottom{ bottom:16px; }
 
   .marquee-track span{ font-size:17px; }
   .marquee-track{ gap:36px; }
